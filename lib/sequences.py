@@ -13,6 +13,7 @@ def print_fibonacci(length):
         
         numbers.append(a)
         print(numbers)
-        
+        a,b = b, a+b
+        print(numbers)
         
 print(print_fibonacci(10))
