@@ -18,4 +18,4 @@ def print_fibonacci(length):
         # print (a)
     print(numbers,end ='\n')
         
-print_fibonacci(0)
+print_fibonacci(2)
