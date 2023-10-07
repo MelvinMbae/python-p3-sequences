@@ -2,15 +2,17 @@
 
 def print_fibonacci(length):
 
-    n1, n2 = 0,1
-    count = 0
+    # Initialize the first two numbers so as to begin logic
+    a, b = 0,1
     
+    # Initialize an empty list to store the data as we loop
+    numbers = []
     
-    while count < length:
-        print(n1)
-        nth = n1+n2
-        n1 = n2
-        n2 = nth
-        count +=1
+    # create a list using range() and iteration
+    for nums in range (length):
+        
+        numbers.append(a)
+        print(numbers)
+        
         
 print(print_fibonacci(10))
