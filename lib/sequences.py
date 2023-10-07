@@ -9,11 +9,13 @@ def print_fibonacci(length):
     numbers = []
     
     # create a list using range() and iteration
-    for nums in range (length):
+    for _ in range (length):
         
         numbers.append(a)
-        print(numbers)
+        # print(a)
+        # print(b) 
         a,b = b, a+b
-        print(numbers)
+        # print (a)
+    print(numbers,end ='\n')
         
-print(print_fibonacci(10))
+print_fibonacci(0)
